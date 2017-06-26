@@ -1,0 +1,138 @@
+nav {
+  background-color: #ffffff;
+  font-family: 'Inconsolata', monospace;
+  height: 17%;
+  opacity: 0.6;
+  border-bottom: solid #00bfa5 1px;
+}
+
+nav .brand-logo{
+  color: #00bfa5;
+  margin-left: 2%;
+  margin-top: 3%;
+  font-size: 50px;
+  float: left;
+}
+
+nav ul a{
+  color: #00bfa5;
+  font-size: 40px;
+  margin-top: 25%;
+  border-left: 1px #00bfa5 solid;
+}
+#avo {
+  height: 120px;
+  margin-left: 5%;
+  float: left;
+  margin-top: .25%;
+
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  border-bottom: 5px solid #00bfa5;
+  color: #00bfa5;
+}
+
+#avo2 {
+  height: 250px;
+  float: left;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Inconsolata', monospace;
+  margin-top: 0;
+  padding-top: 0;
+  color: #00bfa5;
+}
+
+body{
+  background-image: url('../images/wood.jpeg');
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  margin-top: 0;
+  padding-top: 0;
+  color: #00bfa5;
+}
+
+.section {
+  padding: 0px;
+  opacity: 0.9;
+}
+
+.row .col.s4{
+  opacity: 0.8;
+}
+
+.card .card-content{
+  background-color: #757575;
+  font-family: 'Inconsolata', monospace;
+}
+.container .row{
+  margin-left: 8%;
+}
+
+#logo1 {
+  width: 180px;
+  opacity: 0.4;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#logo2 {
+  height: 100px;
+  opacity: 0.4;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#logo3 {
+  height: 100px;
+  opacity: 0.4;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#logo4 {
+  height: 100px;
+  opacity: 0.4;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#logo5 {
+  height: 100px;
+  opacity: 0.4;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#logo6 {
+  height: 100px;
+  opacity: 0.4;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#logo7 {
+  height: 100px;
+  opacity: 0.4;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#logo8 {
+  height: 100px;
+  opacity: 0.4;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#logo9 {
+  height: 100px;
+  opacity: 0.4;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#logos2 {
+  margin-left: 15%;
+}
