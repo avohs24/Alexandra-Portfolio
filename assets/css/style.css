@@ -35,7 +35,7 @@ h1 {
 }
 
 #avo2 {
-  height: 250px;
+  height: auto;
   float: left;
 }
 
@@ -65,6 +65,8 @@ h2 {
 .section {
   padding: 0px;
   opacity: 0.9;
+  border-top: solid #00bfa5 1px;
+  border-bottom: solid #00bfa5 1px;
 }
 
 .row .col.s4{
@@ -139,4 +141,6 @@ h2 {
 .projects {
   background-color: #ffffff;
   opacity: 0.87;
+  border-top: solid #00bfa5 1px;
+  border-bottom: solid #00bfa5 1px;
 }
