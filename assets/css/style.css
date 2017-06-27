@@ -4,6 +4,7 @@ nav {
   height: 17%;
   opacity: 0.7;
   border-bottom: solid #00bfa5 1px;
+  font-weight: bold;
 }
 
 nav .brand-logo{
@@ -12,6 +13,7 @@ nav .brand-logo{
   margin-top: 3%;
   font-size: 50px;
   float: left;
+  font-weight: bold;
 }
 
 nav ul a{
@@ -19,6 +21,7 @@ nav ul a{
   font-size: 40px;
   margin-top: 25%;
   border-left: 1px #00bfa5 solid;
+  font-weight: bold;
 }
 #avo {
   height: 120px;
@@ -32,6 +35,7 @@ h1 {
   font-family: 'Josefin Sans', sans-serif;
   border-bottom: 5px solid #00bfa5;
   color: #00bfa5;
+  font-weight: bold;
 }
 
 #avo2 {
@@ -42,6 +46,7 @@ h1 {
 p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
+  font-weight: bold;
 }
 
 h4 {
@@ -49,6 +54,7 @@ h4 {
   margin-top: 0;
   padding-top: 0;
   color: #00bfa5;
+  font-weight: bold;
 }
 
 body{
@@ -60,10 +66,12 @@ h2 {
   margin-top: 0;
   padding-top: 0;
   color: #00bfa5;
+  font-weight: bold;
 }
 
 .section {
   padding: 0px;
+  padding-top: 5px;
   opacity: 0.9;
   border-top: solid #00bfa5 1px;
   border-bottom: solid #00bfa5 1px;
@@ -143,4 +151,77 @@ h2 {
   opacity: 0.87;
   border-top: solid #00bfa5 1px;
   border-bottom: solid #00bfa5 1px;
+}
+
+
+
+
+.flip {
+  -webkit-perspective: 800;
+   width: 420px;
+   height: 225px;
+    position: relative;
+    margin: 50px auto;
+}
+.flip .card.flipped {
+  -webkit-transform: rotatex(-180deg);
+}
+.flip .card {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+}
+.flip .card .face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden ;
+  z-index: 2;
+    font-family: Georgia;
+    font-size: 3em;
+    text-align: center;
+    line-height: 200px;
+}
+.flip .card .front {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+}
+
+#card1{
+  background-image: url('../images/hangman.png');
+}
+#card2{
+  background-image: url('../images/GIPHY.png');
+}
+#card3{
+  background-image: url('../images/crystal.png');
+}
+#card4{
+  background-image: url('../images/Yo-Brew.png');
+}
+.flip .card .back {
+  -webkit-transform: rotatex(-180deg);
+    background:white;
+    color: black;
+    cursor: pointer;
+    font-size: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+#herokuLink {
+padding-right: 50px;
+}
+#cardText {
+  text-align: center;
+  padding: 0;
+}
+#cardLine1 {
+  line-height: 0;
+}
+
+.s4{
+  padding-left: 0;
 }
