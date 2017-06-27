@@ -2,7 +2,7 @@ nav {
   background-color: #ffffff;
   font-family: 'Inconsolata', monospace;
   height: 17%;
-  opacity: 0.6;
+  opacity: 0.7;
   border-bottom: solid #00bfa5 1px;
 }
 
@@ -135,4 +135,8 @@ h2 {
 }
 #logos2 {
   margin-left: 15%;
+}
+.projects {
+  background-color: #ffffff;
+  opacity: 0.87;
 }
