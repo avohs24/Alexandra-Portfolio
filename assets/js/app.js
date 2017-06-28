@@ -67,9 +67,20 @@ $("#contactLink").on('click', function(event) {
   } // End if
 });
 
-$('.flip').click(function(){
-     $(this).find('.card').addClass('flipped').mouseleave(function(){
-         $(this).removeClass('flipped');
-     });
-     return false;
- });
+
+$(document).ready(function(){
+  $('.card').on('click', function(){
+    $(this).toggleClass('flipped');
+  })
+})
+
+
+
+
+//
+// $('.flip').click(function(){
+//      $(this).find('.card').addClass('flipped').mouseleave(function(){
+//          $(this).removeClass('flipped');
+//      });
+//      return false;
+//  });
