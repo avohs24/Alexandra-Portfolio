@@ -84,6 +84,9 @@ h2 {
 
 .row .col.s4{
   opacity: 0.8;
+  border-bottom: #00bfa5 solid 1px;
+  border-top: #00bfa5 solid 1px;
+  border-right: #00bfa5 solid 1px;
 }
 
 .card .card-content{
@@ -231,8 +234,9 @@ padding-right: 50px;
 footer {
   background-color: #00bfa5;
   opacity: 0.7;
-  bottom: 0;
+  bottom: 0px;
   color: #ffffff;
+  border-top: #ffffff solid .5px;
 }
 #footerText {
   color: #ffffff;
@@ -240,6 +244,8 @@ footer {
 h5 {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
+  font-size: 32px;
+  border-bottom: #ffffff solid 1px;
 }
 #contactImgs{
   opacity: 0.9;
@@ -250,4 +256,15 @@ h5 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
   line-height: 5px;
+}
+#contact {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#email {
+  line-height: 0;
+  text-align: center;
+  color: #ffffff;
 }
