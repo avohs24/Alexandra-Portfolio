@@ -1,4 +1,6 @@
+
 $(document).ready(function(){
+
   // Add smooth scrolling to all links
   $("#aboutMeLink").on('click', function(event) {
 
@@ -72,15 +74,6 @@ $(document).ready(function(){
   $('.card').on('click', function(){
     $(this).toggleClass('flipped');
   })
+
+  // $(".button-collapse").sideNav();
 })
-
-
-
-
-//
-// $('.flip').click(function(){
-//      $(this).find('.card').addClass('flipped').mouseleave(function(){
-//          $(this).removeClass('flipped');
-//      });
-//      return false;
-//  });

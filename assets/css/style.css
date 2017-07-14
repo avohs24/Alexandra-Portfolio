@@ -1,9 +1,10 @@
 nav {
-  background-color: #424242;
+  background-color: #9e9e9e;
+  /*font-family: 'Londrina Outline', cursive;*/
   font-family: 'Josefin Sans', sans-serif;
   height: 9%;
   opacity: 0.8;
-  border-bottom: solid #00bfa5 1px;
+  border-bottom: solid white 1px;
   font-weight: bold;
   overflow: hidden;
   position: fixed;
@@ -13,7 +14,7 @@ nav {
 }
 
 nav .brand-logo{
-  color: #00bfa5;
+  color: white;
   margin-left: 2%;
   /*margin-top: 3%;*/
   font-size: 40px;
@@ -22,10 +23,10 @@ nav .brand-logo{
 }
 
 nav ul a{
-  color: #00bfa5;
+  color: white;
   font-size: 40px;
   /*margin-top: 25%;*/
-  border-left: 1px #00bfa5 solid;
+  border-left: 1px white solid;
   font-weight: bold;
 }
 #avo {
@@ -38,8 +39,9 @@ nav ul a{
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
-  border-bottom: 5px solid #00bfa5;
-  color: #00bfa5;
+  /*font-family: 'Londrina Outline', cursive;*/
+  border-bottom: 5px solid white;
+  color: white;
   font-weight: bold;
 }
 
@@ -50,48 +52,54 @@ h1 {
 
 p {
   font-family: 'Josefin Sans', sans-serif;
+  /*font-family: 'Londrina Outline', cursive;*/
   font-size: 20px;
+  color: white;
   font-weight: bold;
 }
 
 h4 {
   font-family: 'Josefin Sans', sans-serif;
+  /*font-family: 'Londrina Outline', cursive;*/
   margin-top: 0;
   padding-top: 0;
-  color: #00bfa5;
+  color: white;
   font-weight: bold;
 }
 
 body{
-  background-image: url('../images/wood.jpeg');
+  background-image: url('../images/sky.jpg');
 }
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
+  /*font-family: 'Londrina Outline', cursive;*/
   margin-top: 0;
   padding-top: 0;
-  color: #00bfa5;
+  color: white;
   font-weight: bold;
 }
 
 .section {
   padding: 0px;
   padding-top: 5px;
-  opacity: 0.9;
-  border-top: solid #00bfa5 1px;
-  border-bottom: solid #00bfa5 1px;
+  opacity: 0.87;
+  background-color: #9e9e9e;
+  /*border-top: solid white 1px;
+  border-bottom: solid white 1px;*/
 }
 
 .row .col.s4{
   opacity: 0.8;
-  border-bottom: #00bfa5 solid 1px;
-  border-top: #00bfa5 solid 1px;
-  border-right: #00bfa5 solid 1px;
+  /*border-bottom: white solid 1px;
+  border-top: white solid 1px;
+  border-right: white solid 1px;*/
 }
 
 .card .card-content{
   background-color: #757575;
   font-family: 'Josefin Sans', sans-serif;
+  /*font-family: 'Londrina Outline', cursive;*/
 }
 .container .row{
   margin-left: 8%;
@@ -155,10 +163,9 @@ h2 {
   margin-left: 15%;
 }
 .projects {
-  background-color: #ffffff;
-  opacity: 0.87;
-  border-top: solid #00bfa5 1px;
-  border-bottom: solid #00bfa5 1px;
+  background-color: #9e9e9e;
+  opacity: 0.9;
+
 }
 
 
@@ -194,7 +201,7 @@ h2 {
 .flip .card .front {
     position: absolute;
     z-index: 1;
-    color: white;
+    color: #9e9e9e;
     cursor: pointer;
 }
 
@@ -212,12 +219,13 @@ h2 {
 }
 .flip .card .back {
   -webkit-transform: rotatex(-180deg);
-    background:white;
+    background: #9e9e9e;
     color: black;
     cursor: pointer;
     font-size: 10px;
     padding-top: 30px;
     padding-left: 10px;
+    opacity: 0.87;
 }
 #herokuLink {
 padding-right: 50px;
@@ -232,7 +240,7 @@ padding-right: 50px;
 }
 
 footer {
-  background-color: #00bfa5;
+  background-color: #9e9e9e;
   opacity: 0.7;
   bottom: 0px;
   color: #ffffff;
@@ -243,6 +251,7 @@ footer {
 }
 h5 {
   font-family: 'Josefin Sans', sans-serif;
+  /*font-family: 'Londrina Outline', cursive;*/
   text-align: center;
   font-size: 32px;
   border-bottom: #ffffff solid 1px;
@@ -254,6 +263,7 @@ h5 {
 
 #description{
   font-family: 'Josefin Sans', sans-serif;
+  /*font-family: 'Londrina Outline', cursive;*/
   font-size: 18px;
   line-height: 5px;
 }
