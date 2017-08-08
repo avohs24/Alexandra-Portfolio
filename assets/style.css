@@ -12,6 +12,7 @@ h1{
   font-size: 70px;
   text-align: center;
   line-height: 250px;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -19,6 +20,7 @@ h1{
   color: #ffffff;
   text-align: center;
   font-size: 30px;
+  font-family: 'Raleway', sans-serif;
 }
 
 a{
@@ -28,16 +30,16 @@ a{
 #about-me{
   font-size: 25px;
   background-color: white;
-  /*background-color: #b3dff2;*/
-  box-shadow:
+  font-family: 'Raleway', sans-serif;
 }
 h2 {
   font-size: 35px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .projects{
   font-size: 45px;
-
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -146,14 +148,16 @@ padding-right: 50px;
 #cardText {
   text-align: center;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 #cardLine1 {
   line-height: 0;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 #description{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   /*font-family: 'Londrina Outline', cursive;*/
   font-size: 18px;
   line-height: 20px;
@@ -209,9 +213,10 @@ footer {
   line-height: 50px;
   border-bottom: #ffffff solid 2px;
   font-size: 45px;
+  font-family: 'Raleway', sans-serif;
 }
 h5 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   /*font-family: 'Londrina Outline', cursive;*/
   text-align: center;
   font-size: 32px;
@@ -224,6 +229,7 @@ h5 {
   text-align: center;
   color: #ffffff;
   font-size: 22px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #gitHubImgs{
